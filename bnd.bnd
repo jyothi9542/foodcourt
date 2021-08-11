@@ -1,0 +1,7 @@
+Bundle-Name: foodcourt
+Bundle-SymbolicName: com.favourite
+Bundle-Version: 1.0-SNAPSHOT
+Liferay-Theme-Contributor-Type: foodcourt
+Web-ContextPath: /foodcourt-theme-contributor
+-plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+-sass: *
