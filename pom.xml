@@ -59,38 +59,8 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>biz.aQute.bnd</groupId>
-				<artifactId>bnd-maven-plugin</artifactId>
-				<version>3.2.0</version>
-				<executions>
-					<execution>
-						<id>default-bnd-process</id>
-						<goals>
-							<goal>bnd-process</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>com.liferay</groupId>
-				<artifactId>com.liferay.css.builder</artifactId>
-				<version>1.0.20</version>
-				<executions>
-					<execution>
-						<id>default-build-css</id>
-						<phase>generate-sources</phase>
-						<goals>
-							<goal>build-css</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<docrootDirName>src/main/resources</docrootDirName>
-					<outputDirName>/</outputDirName>
-					<portalCommonPath>target/deps/com.liferay.frontend.css.common.jar</portalCommonPath>
-				</configuration>
-			</plugin>
+			
+			
 		</plugins>
 	</build>
 </project>
